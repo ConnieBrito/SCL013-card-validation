@@ -1,0 +1,341 @@
+/*Cabecera (header) para todas las páginas*/
+
+#main-header {
+    background-color: antiquewhite;
+    height: 80px;
+    font-family: 'Handlee', cursive;
+}
+
+#main-header a {
+    color: #424949;
+    text-align: right;
+}
+
+
+/*nav ul para menú en header*/
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    padding-right: 20px;
+    margin-left: 150px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: 'Handlee', cursive;
+}
+
+nav ul li a:hover {
+    background: mistyrose;
+}
+
+a.logo {
+    height: 60px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 60%;
+    background-size: 60% auto;
+    float: left;
+    margin-left: 5px;
+}
+
+.titulo {
+    font-family: 'Handlee', cursive;
+    text-align: center;
+}
+
+div.imgppal {
+    display: block;
+    margin: auto;
+    width: 1050px;
+    height: 490px;
+}
+
+div.imginicio {
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin-left: 150px;
+    float: left;
+    align-items: center;
+}
+
+.texto1 {
+    text-align: justify;
+    font-family: 'Handlee', cursive;
+    margin-left: 490px;
+    margin-right: 150px;
+}
+
+
+/*Pie de página, para todas las páginas*/
+
+#main-footer {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    margin-top: 530px;
+}
+
+main-footer address {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+
+/*Página cursos y programas*/
+
+.pagina2 {
+    width: 90%;
+    margin-top: auto;
+    margin: auto;
+}
+
+.columnasmasajescontenedor {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.columnasx2 {
+    width: 50%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.columnasx2 img {
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin-left: 150px;
+}
+
+.columnasx2 h2 {
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+
+.columnasx2 p {
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Handlee', cursive;
+}
+
+
+/*Configuración botones páginas inicio (index) y cursos y programas*/
+
+.boton {
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 5px, 0;
+    width: 35%;
+    border: 2px solidcolor purple;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7BDE2;
+    color: #5B2C6F;
+    font-weight: 400;
+    font-size: 20px;
+    /*eliminar color de fondo*/
+    background: transparent;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    font-family: 'Handlee', cursive;
+}
+
+
+/* Al poner el curso encima (hover) */
+
+.boton:hover {
+    background-color: #D7BDE2;
+    color: #5B2C6F;
+}
+
+
+/*Página contacto*/
+
+div.formulario {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+div.formulario h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    color: darkmagenta;
+    margin-bottom: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+div.formulario input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: none;
+}
+
+div.formulario textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+
+/*Diseño página pago*/
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    padding: 40px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Estilo de TC*/
+
+.tarjeta {
+    width: 80%;
+    max-width: 450px;
+    height: 350px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.tarjeta>div {
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 0 rgba(90, 116, 148, 0.3);
+}
+
+
+/*Diseño tarjeta*/
+
+.tarjeta .frontal {
+    width: 100%;
+    background: url(http://www.publicdomainpictures.net/pictures/320000/nahled/kosmos-universum-weltall-sterne-15827124104Ia.jpg);
+    background-size: cover;
+}
+
+.frontal .logo-marca {
+    text-align: right;
+    min-height: 50px;
+}
+
+.frontal .logo-marca img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 150px;
+}
+
+.frontal .chip {
+    width: 100%;
+    max-width: 80px;
+    margin-bottom: 20px;
+}
+
+.frontal .grupo .label {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+    font-family: 'Arial', cursive;
+}
+
+.frontal .grupo .numero .frontal .grupo .nombre {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Arial', cursive;
+}
+
+.frontal .flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.frontal .flexbox .nombre {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Arial', cursive;
+}
+
+
+/*Formulario Tarjeta*/
+
+.formulario {
+    background: wheat;
+    width: 200%;
+    height: 150px;
+    max-width: 460px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-left: 450px;
+    margin-bottom: 200px;
+}
+
+.formulariotarjeta1 h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    color: darkmagenta;
+    margin-bottom: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.formulariotarjeta1 p {
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.formulario input:hover {
+    border: 2px solid darkorchid;
+}
+
+.formulario input {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
