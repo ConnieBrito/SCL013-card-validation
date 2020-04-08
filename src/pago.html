@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso de Compra</title>
+</head>
+
+<body>
+    <div>
+        <script src="app.js"></script>
+        <script src="validator.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+        <header id="main-header">
+            <a class="logo" style="background-image: url(http://i.pinimg.com/236x/9d/c6/fb/9dc6fb8b6771a657f1b99b460493d72f--monogram-logo-design-logo.jpg);">
+            </a>
+
+            <center>
+                <h1>Proceso de Pago</h1>
+            </center>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursosyprogramas.html">Cursos y Programas</a></li>
+                    <li><a href="contacto.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <br>
+        <br>
+
+        <!-- Formulario -->
+        <section class="formdatos" id="ingdatos">
+            <div class="formulariotarjeta1">
+                <form action="" id="formulario" class="formulario">
+                    <h2>Ingrese sus Datos</h2>
+                    <p>Nombre Titular: <input type="text" id="nombre" name="nombre" maxlength="30" autocomplete="off"></p>
+                    <p>Número Tarjeta: <input type="text" id="numtarjeta" name="numtarjeta" maxlength="16" autocomplete="off"></p>
+
+                    <button onclick="obtenerdatos()" id="datoform" type="submit" class="boton"><a href="validaciontarjeta.html">Enviar</a></button>
+
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer id="main-footer">
+        <div class="piePagina">
+            <br>
+
+            <br>
+            <address>&copy; Copyright, 2020 Cursos ConnAnli, todos los derechos reservados <br>  
+                Contáctanos contacto@connanli.cl</address>
+        </div>
+    </footer>
+
+</body>
+
+</html>
