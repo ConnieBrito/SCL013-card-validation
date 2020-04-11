@@ -9,8 +9,7 @@
 
 <body>
     <div>
-        <script src="app.js"></script>
-        <script src="validator.js"></script>
+
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
 
@@ -39,14 +38,16 @@
         <!-- Formulario -->
         <section class="formdatos" id="ingdatos">
             <div class="formulariotarjeta1">
-                <form action="" id="formulario" class="formulario">
+                <form action="" name="form2" id="formulario" class="formulario">
                     <h2>Ingrese sus Datos</h2>
-                    <p>Nombre Titular: <input type="text" id="nombre" name="nombre" maxlength="30" autocomplete="off"></p>
-                    <p>Número Tarjeta: <input type="text" id="numtarjeta" name="numtarjeta" maxlength="16" autocomplete="off"></p>
+                    <label for="">Nombre Titular:</label><input type="text" id="nombre" name="nombre" maxlength="30" autocomplete="off"><br>
+                    <label for="">Número Tarjeta:</label> <input type="text" id="numtarjeta" name="numtarjeta" maxlength="16" autocomplete="off">
 
-                    <button onclick="obtenerdatos()" id="datoform" type="submit" class="boton"><a href="validaciontarjeta.html">Enviar</a></button>
-
+                    <button onclick="isValid()" id="datoform" type="submit" class="boton">Validar</button>
+                    <a href="validaciontarjeta.html"></a>
+                    </input>
                 </form>
+
             </div>
         </section>
 
@@ -61,6 +62,8 @@
                 Contáctanos contacto@connanli.cl</address>
         </div>
     </footer>
+    <script src="index.js"></script>
+
 
 </body>
 

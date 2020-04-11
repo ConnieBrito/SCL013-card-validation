@@ -253,6 +253,8 @@ div.formulario textarea {
     width: 100%;
     background: url(http://www.publicdomainpictures.net/pictures/320000/nahled/kosmos-universum-weltall-sterne-15827124104Ia.jpg);
     background-size: cover;
+    position: relative;
+    margin-left: 450px;
 }
 
 .frontal .logo-marca {
