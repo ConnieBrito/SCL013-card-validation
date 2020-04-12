@@ -251,28 +251,33 @@ div.formulario textarea {
 
 .tarjeta .frontal {
     width: 100%;
+    width: 450px;
+    height: 250px;
     background: url(http://www.publicdomainpictures.net/pictures/320000/nahled/kosmos-universum-weltall-sterne-15827124104Ia.jpg);
     background-size: cover;
     position: relative;
     margin-left: 450px;
+    margin-bottom: 0px;
 }
 
 .frontal .logo-marca {
     text-align: right;
-    min-height: 50px;
+    min-height: 30px;
 }
 
 .frontal .logo-marca img {
-    width: 100%;
-    height: 100%;
+    width: 120px;
+    height: 35px;
     object-fit: cover;
     max-width: 150px;
+    margin-bottom: 5px;
 }
 
 .frontal .chip {
     width: 100%;
-    max-width: 80px;
-    margin-bottom: 20px;
+    max-width: 60px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .frontal .grupo .label {
@@ -280,11 +285,12 @@ div.formulario textarea {
     color: whitesmoke;
     margin-bottom: 5px;
     font-family: 'Arial', cursive;
+    margin-top: 5px;
 }
 
 .frontal .grupo .numero .frontal .grupo .nombre {
-    color: white;
-    font-size: 22px;
+    color: whitesmoke;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: 'Arial', cursive;
 }
@@ -313,10 +319,10 @@ div.formulario textarea {
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-right: 90px;
     margin-left: 450px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .formulariotarjeta1 h2 {
@@ -328,7 +334,7 @@ div.formulario textarea {
     font-family: 'Handlee', cursive;
 }
 
-.formulariotarjeta1 p {
+.formulariotarjeta1 label {
     font-size: 20px;
     font-family: 'Handlee', cursive;
 }
@@ -338,6 +344,13 @@ div.formulario textarea {
 }
 
 .formulario input {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     text-transform: uppercase;
+}
+
+.formulario p {
+    font-size: 30px;
+    font-family: 'Handlee', cursive;
+    color: darkmagenta;
+    text-align: center;
 }

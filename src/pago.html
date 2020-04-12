@@ -32,26 +32,48 @@
 
         </header>
 
-        <br>
-        <br>
+        <br><br>
+        <br><br>
+        <main>
+            <!--Tarjeta-->
+            <section class="tarjeta" id="tarjeta">
+                <div class="frontal">
+                    <div class="logo-marca">
+                        <img src="https://enclave.rae.es/sites/default/files/visa_mastercard.png" alt="">
+                    </div>
+                    <img src="http://pngimage.net/wp-content/uploads/2018/05/chip-png-1.png" class="chip" alt="">
+                    <div class="datos">
+                        <div class="grupo" id="numero">
+                            <p class="label">Número Tarjeta</p>
+                            <div id="numero">#### #### #### ####</div>
+                        </div>
+                        <div class="flexbox">
+                            <div class="grupo" id="nombre">
+                                <p class="label">Nombre Titular</p>
+                                <div id="nombre">Titular de la Tarjeta</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Formulario -->
-        <section class="formdatos" id="ingdatos">
-            <div class="formulariotarjeta1">
-                <form action="" name="form2" id="formulario" class="formulario">
-                    <h2>Ingrese sus Datos</h2>
-                    <label for="">Nombre Titular:</label><input type="text" id="nombre" name="nombre" maxlength="30" autocomplete="off"><br>
-                    <label for="">Número Tarjeta:</label> <input type="text" id="numtarjeta" name="numtarjeta" maxlength="16" autocomplete="off">
+            </section>
 
-                    <button onclick="isValid()" id="datoform" type="submit" class="boton">Validar</button>
-                    <a href="validaciontarjeta.html"></a>
-                    </input>
-                </form>
+            <!-- Formulario -->
+            <section class="formdatos" id="ingdatos">
+                <div class="formulariotarjeta1">
+                    <form action="" name="form2" id="formulario" class="formulario">
+                        <h2>Ingrese sus Datos</h2>
+                        <label for="">Nombre Titular:  </label><input type="text" id="nombre" name="nombre" maxlength="30" autocomplete="off"><br>
+                        <label for="">Número Tarjeta: </label> <input type="text" id="creditCardNumber" name="creditCardNumber" maxlength="16" autocomplete="off">
+                        <button name="sendButton" id="sendButton" type="submit" class="boton">Validar</button>
+                        <p id="mensaje-usuario"></p>
 
-            </div>
-        </section>
+                    </form>
+                </div>
+            </section>
 
     </div>
+    </main>
 
     <footer id="main-footer">
         <div class="piePagina">
@@ -62,7 +84,8 @@
                 Contáctanos contacto@connanli.cl</address>
         </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="index.js" type="module" defer></script>
+
 
 
 </body>
