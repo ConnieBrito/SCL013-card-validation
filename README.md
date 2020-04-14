@@ -1,7 +1,8 @@
-# Tarjeta de crédito válida
+# Cursos ConnAnli (proyecto card validation)
 
 ## Índice
 
+<<<<<<< HEAD
 * [1. Resumen del Proyecto](#1-resumen-del-proyecto)
 * [2. Imagen final del proyecto](#2-imagen-final-del-proyecto)
 * [3. Investigación UX](#3-investigacion-ux)
@@ -79,4 +80,3 @@ A continuación podemos ver el resultado final de nuestro proyecto, visualizado 
     Se adjunta imagen de tablero (link enviado a Coaches para seguimiento y revisión)
 
   <img src="..\SCL-013-CARD-VALIDATION\img\Trello.jpg" style="max-width:100%;">
-    
