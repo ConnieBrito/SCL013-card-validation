@@ -63,8 +63,8 @@
                 <div class="formulariotarjeta1">
                     <form action="" name="form2" id="formulario" class="formulario">
                         <h2>Ingrese sus Datos</h2>
-                        <label for="">Nombre Titular:  </label><input type="text" id="nombre" name="nombre" maxlength="30" autocomplete="off"><br>
-                        <label for="">Número Tarjeta: </label> <input type="text" id="creditCardNumber" name="creditCardNumber" maxlength="16" autocomplete="off">
+                        <label for="">Nombre Titular:  </label><input type="text" id="nombre" name="nombre" minlength="3" maxlength="30" autocomplete="off"><br>
+                        <label for="">Número Tarjeta: </label> <input type="text" id="creditCardNumber" name="creditCardNumber" minlength="16" maxlength="16" autocomplete="off" required pattern="[0-9] {16}">
                         <button name="sendButton" id="sendButton" type="submit" class="boton">Validar</button>
                         <p id="mensaje-usuario"></p>
 
