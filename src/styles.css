@@ -177,7 +177,7 @@ main-footer address {
 
 /*Página contacto*/
 
-div.formulario {
+div.formulariocontacto {
     width: 450px;
     margin: auto;
     background: rgba(0, 0, 0, 0.2);
@@ -187,7 +187,7 @@ div.formulario {
     border-radius: 7px;
 }
 
-div.formulario h2 {
+div.formulariocontacto h2 {
     text-align: center;
     margin: 0;
     font-size: 30px;
@@ -196,7 +196,7 @@ div.formulario h2 {
     font-family: 'Handlee', cursive;
 }
 
-div.formulario input,
+div.formulariocontacto input,
 textarea {
     width: 100%;
     margin-bottom: 20px;
@@ -206,7 +206,7 @@ textarea {
     border: none;
 }
 
-div.formulario textarea {
+div.formulariocontacto textarea {
     min-height: 100px;
     max-height: 200px;
     max-width: 100%;
